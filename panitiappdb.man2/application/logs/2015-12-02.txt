@@ -1,0 +1,403 @@
+Time : 17:16:33
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'makeyouchoose.ppdb_user' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT u.uid, u...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT u.uid, u...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\TestingModel.php(32): Database\Driver\PdoDb->query('SELECT u.uid, u...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Testing.php(36): Models\TestingModel->verify('hafidz', 'hafitto')
+#4 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(101): Controllers\Testing->verify()
+#5 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Tes...')
+#6 D:\xampp\htdocs\panitiappdb.man2\index.php(78): Core\Router::dispatch()
+#7 {main}
+
+Time : 17:16:31
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'makeyouchoose.ppdb_user' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT u.uid, u...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT u.uid, u...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\TestingModel.php(32): Database\Driver\PdoDb->query('SELECT u.uid, u...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Testing.php(36): Models\TestingModel->verify('hafidz', 'hafitto')
+#4 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(101): Controllers\Testing->verify()
+#5 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Tes...')
+#6 D:\xampp\htdocs\panitiappdb.man2\index.php(78): Core\Router::dispatch()
+#7 {main}
+
+Time : 17:16:16
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'makeyouchoose.ppdb_user' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT u.uid, u...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT u.uid, u...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\TestingModel.php(32): Database\Driver\PdoDb->query('SELECT u.uid, u...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Testing.php(36): Models\TestingModel->verify('hafidz', 'hafitto')
+#4 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(101): Controllers\Testing->verify()
+#5 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Tes...')
+#6 D:\xampp\htdocs\panitiappdb.man2\index.php(78): Core\Router::dispatch()
+#7 {main}
+
+Time : 17:12:52
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'makeyouchoose.ppdb_user' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT u.uid, u...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT u.uid, u...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\UserModel.php(179): Database\Driver\PdoDb->query('SELECT u.uid, u...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\controllers\User.php(63): Models\UserModel->verify('hafidz', 'hafitto')
+#4 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(101): Controllers\User->login()
+#5 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Use...')
+#6 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#7 {main}
+
+Time : 17:12:52
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'makeyouchoose.ppdb_user' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT u.uid, u...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT u.uid, u...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\UserModel.php(179): Database\Driver\PdoDb->query('SELECT u.uid, u...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\controllers\User.php(52): Models\UserModel->verify('hafidz', 'hafitto')
+#4 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(101): Controllers\User->login()
+#5 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Use...')
+#6 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#7 {main}
+
+Time : 17:10:26
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'makeyouchoose.ppdb_user' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT u.uid, u...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT u.uid, u...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\UserModel.php(179): Database\Driver\PdoDb->query('SELECT u.uid, u...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\controllers\User.php(63): Models\UserModel->verify('hafidz', 'hafitto')
+#4 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(101): Controllers\User->login()
+#5 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Use...')
+#6 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#7 {main}
+
+Time : 17:10:26
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'makeyouchoose.ppdb_user' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT u.uid, u...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT u.uid, u...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\UserModel.php(179): Database\Driver\PdoDb->query('SELECT u.uid, u...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\controllers\User.php(52): Models\UserModel->verify('hafidz', 'hafitto')
+#4 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(101): Controllers\User->login()
+#5 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Use...')
+#6 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#7 {main}
+
+Time : 17:08:04
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'makeyouchoose.ppdb_user' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('UPDATE ppdb_use...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('UPDATE ppdb_use...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\UserModel.php(207): Database\Driver\PdoDb->query('UPDATE ppdb_use...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\controllers\User.php(55): Models\UserModel->updateUserInfo('6613ee5887dcfd9...')
+#4 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(101): Controllers\User->login()
+#5 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Use...')
+#6 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#7 {main}
+
+Time : 17:08:04
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'makeyouchoose.ppdb_user' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT u.uid, u...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT u.uid, u...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\UserModel.php(179): Database\Driver\PdoDb->query('SELECT u.uid, u...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\controllers\User.php(52): Models\UserModel->verify('hafidz', 'hafitto')
+#4 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(101): Controllers\User->login()
+#5 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Use...')
+#6 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#7 {main}
+
+Time : 17:07:42
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'makeyouchoose.ppdb_user' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT u.uid, u...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT u.uid, u...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\UserModel.php(179): Database\Driver\PdoDb->query('SELECT u.uid, u...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\controllers\User.php(63): Models\UserModel->verify('hafidz', 'hafitto')
+#4 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(101): Controllers\User->login()
+#5 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Use...')
+#6 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#7 {main}
+
+Time : 17:07:42
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'makeyouchoose.ppdb_user' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT u.uid, u...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT u.uid, u...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\UserModel.php(179): Database\Driver\PdoDb->query('SELECT u.uid, u...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\controllers\User.php(52): Models\UserModel->verify('hafidz', 'hafitto')
+#4 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(101): Controllers\User->login()
+#5 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Use...')
+#6 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#7 {main}
+
+Time : 17:06:52
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'makeyouchoose.ppdb_user' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT u.uid, u...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT u.uid, u...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\UserModel.php(179): Database\Driver\PdoDb->query('SELECT u.uid, u...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\controllers\User.php(63): Models\UserModel->verify('hafidz', 'hafitto')
+#4 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(101): Controllers\User->login()
+#5 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Use...')
+#6 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#7 {main}
+
+Time : 17:06:52
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'makeyouchoose.ppdb_user' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT u.uid, u...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT u.uid, u...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\UserModel.php(179): Database\Driver\PdoDb->query('SELECT u.uid, u...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\controllers\User.php(52): Models\UserModel->verify('hafidz', 'hafitto')
+#4 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(101): Controllers\User->login()
+#5 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Use...')
+#6 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#7 {main}
+
+Time : 17:05:59
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'makeyouchoose.ppdb_user' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT u.uid, u...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT u.uid, u...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\UserModel.php(179): Database\Driver\PdoDb->query('SELECT u.uid, u...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\controllers\User.php(63): Models\UserModel->verify('hafidz', 'hafitto')
+#4 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(101): Controllers\User->login()
+#5 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Use...')
+#6 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#7 {main}
+
+Time : 17:05:59
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'makeyouchoose.ppdb_user' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT u.uid, u...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT u.uid, u...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\UserModel.php(179): Database\Driver\PdoDb->query('SELECT u.uid, u...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\controllers\User.php(52): Models\UserModel->verify('hafidz', 'hafitto')
+#4 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(101): Controllers\User->login()
+#5 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Use...')
+#6 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#7 {main}
+
+Time : 17:04:55
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'makeyouchoose.ppdb_user' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT u.uid, u...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT u.uid, u...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\UserModel.php(179): Database\Driver\PdoDb->query('SELECT u.uid, u...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\controllers\User.php(52): Models\UserModel->verify('hafidz', 'hafitto')
+#4 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(101): Controllers\User->login()
+#5 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Use...')
+#6 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#7 {main}
+
+Time : 16:47:01
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'makeyouchoose.ppdb_gelombang' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT * FROM p...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT * FROM p...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\GelombangModel.php(73): Database\Driver\PdoDb->query('SELECT * FROM p...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\models\GelombangModel.php(94): Models\GelombangModel->getGelYear('2015', NULL)
+#4 D:\xampp\htdocs\panitiappdb.man2\application\models\GelombangModel.php(21): Models\GelombangModel->getGelStat()
+#5 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(19): Models\GelombangModel->__construct()
+#6 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(97): Controllers\Home->__construct(NULL)
+#7 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Hom...')
+#8 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#9 {main}
+
+Time : 16:47:01
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'makeyouchoose.ppdb_gelombang' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT * FROM p...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT * FROM p...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\GelombangModel.php(60): Database\Driver\PdoDb->query('SELECT * FROM p...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\models\GelombangModel.php(78): Models\GelombangModel->getGelsYear('2015')
+#4 D:\xampp\htdocs\panitiappdb.man2\application\models\GelombangModel.php(21): Models\GelombangModel->getGelStat()
+#5 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(19): Models\GelombangModel->__construct()
+#6 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(97): Controllers\Home->__construct(NULL)
+#7 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Hom...')
+#8 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#9 {main}
+
+Time : 16:46:48
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'makeyouchoose.ppdb_user' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT u.uid, u...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT u.uid, u...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\UserModel.php(179): Database\Driver\PdoDb->query('SELECT u.uid, u...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\controllers\User.php(52): Models\UserModel->verify('hafidz', 'hafitto')
+#4 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(101): Controllers\User->login()
+#5 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Use...')
+#6 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#7 {main}
+
+Time : 16:46:28
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'makeyouchoose.ppdb_user' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT u.uid, u...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT u.uid, u...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\UserModel.php(179): Database\Driver\PdoDb->query('SELECT u.uid, u...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\controllers\User.php(52): Models\UserModel->verify('hafidz', 'hafitto')
+#4 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(101): Controllers\User->login()
+#5 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Use...')
+#6 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#7 {main}
+
+Time : 16:42:30
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'makeyouchoose.ppdb_user' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT u.uid, u...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT u.uid, u...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\UserModel.php(179): Database\Driver\PdoDb->query('SELECT u.uid, u...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\controllers\User.php(52): Models\UserModel->verify('hafidz', 'kontil100%')
+#4 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(101): Controllers\User->login()
+#5 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Use...')
+#6 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#7 {main}
+
+Time : 16:42:02
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'makeyouchoose.ppdb_gelombang' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT * FROM p...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT * FROM p...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\GelombangModel.php(73): Database\Driver\PdoDb->query('SELECT * FROM p...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\models\GelombangModel.php(94): Models\GelombangModel->getGelYear('2015', NULL)
+#4 D:\xampp\htdocs\panitiappdb.man2\application\models\GelombangModel.php(21): Models\GelombangModel->getGelStat()
+#5 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(19): Models\GelombangModel->__construct()
+#6 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(97): Controllers\Home->__construct(NULL)
+#7 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Hom...')
+#8 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#9 {main}
+
+Time : 16:42:02
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'makeyouchoose.ppdb_gelombang' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT * FROM p...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT * FROM p...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\GelombangModel.php(60): Database\Driver\PdoDb->query('SELECT * FROM p...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\models\GelombangModel.php(78): Models\GelombangModel->getGelsYear('2015')
+#4 D:\xampp\htdocs\panitiappdb.man2\application\models\GelombangModel.php(21): Models\GelombangModel->getGelStat()
+#5 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(19): Models\GelombangModel->__construct()
+#6 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(97): Controllers\Home->__construct(NULL)
+#7 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Hom...')
+#8 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#9 {main}
+
+Time : 16:41:25
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'makeyouchoose.ppdb_user' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT u.uid, u...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT u.uid, u...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\UserModel.php(179): Database\Driver\PdoDb->query('SELECT u.uid, u...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\controllers\User.php(52): Models\UserModel->verify('hafidz', 'hafitto')
+#4 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(101): Controllers\User->login()
+#5 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Use...')
+#6 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#7 {main}
+
+Time : 16:41:21
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'makeyouchoose.ppdb_user' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT u.uid, u...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT u.uid, u...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\UserModel.php(179): Database\Driver\PdoDb->query('SELECT u.uid, u...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\controllers\User.php(52): Models\UserModel->verify('hafidz', 'kontil100%')
+#4 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(101): Controllers\User->login()
+#5 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Use...')
+#6 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#7 {main}
+
+Time : 16:33:56
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'makeyouchoose.ppdb_user' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT u.uid, u...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT u.uid, u...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\UserModel.php(179): Database\Driver\PdoDb->query('SELECT u.uid, u...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\controllers\User.php(52): Models\UserModel->verify('admin', 'admin')
+#4 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(101): Controllers\User->login()
+#5 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Use...')
+#6 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#7 {main}
+
+Time : 16:33:50
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'makeyouchoose.ppdb_gelombang' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT * FROM p...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT * FROM p...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\GelombangModel.php(73): Database\Driver\PdoDb->query('SELECT * FROM p...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\models\GelombangModel.php(94): Models\GelombangModel->getGelYear('2015', NULL)
+#4 D:\xampp\htdocs\panitiappdb.man2\application\models\GelombangModel.php(21): Models\GelombangModel->getGelStat()
+#5 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(19): Models\GelombangModel->__construct()
+#6 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(97): Controllers\Home->__construct(NULL)
+#7 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Hom...')
+#8 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#9 {main}
+
+Time : 16:33:50
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'makeyouchoose.ppdb_gelombang' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT * FROM p...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT * FROM p...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\GelombangModel.php(60): Database\Driver\PdoDb->query('SELECT * FROM p...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\models\GelombangModel.php(78): Models\GelombangModel->getGelsYear('2015')
+#4 D:\xampp\htdocs\panitiappdb.man2\application\models\GelombangModel.php(21): Models\GelombangModel->getGelStat()
+#5 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(19): Models\GelombangModel->__construct()
+#6 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(97): Controllers\Home->__construct(NULL)
+#7 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Hom...')
+#8 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#9 {main}

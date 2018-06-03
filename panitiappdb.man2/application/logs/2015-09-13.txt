@@ -1,0 +1,111 @@
+Time : 20:05:31
+At: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+
+Time : 20:05:31
+At: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+
+Time : 19:45:02
+At: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+
+Time : 19:45:02
+At: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+
+Time : 19:29:37
+At: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+
+Time : 19:28:52
+At: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+SQLSTATE[HY093]: Invalid parameter number
+
+Time : 19:28:52
+At: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+SQLSTATE[HY093]: Invalid parameter number
+
+Time : 19:28:24
+At: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+SQLSTATE[HY093]: Invalid parameter number
+
+Time : 19:28:24
+At: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+SQLSTATE[HY093]: Invalid parameter number
+
+Time : 19:28:19
+At: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+
+Time : 19:28:11
+At: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+SQLSTATE[HY093]: Invalid parameter number
+
+Time : 19:28:11
+At: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+SQLSTATE[HY093]: Invalid parameter number
+
+Time : 19:26:36
+At: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+
+Time : 19:26:27
+At: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+SQLSTATE[HY093]: Invalid parameter number
+
+Time : 19:26:27
+At: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+SQLSTATE[HY093]: Invalid parameter number
+
+Time : 19:26:22
+At: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+SQLSTATE[HY093]: Invalid parameter number
+
+Time : 19:26:22
+At: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+SQLSTATE[HY093]: Invalid parameter number
+
+Time : 19:26:16
+At: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+
+Time : 19:26:02
+At: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '7' for key 'PRIMARY'
+
+Time : 14:37:52
+At: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error Code: 23000
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '7' for key 'PRIMARY'
+
+Time : 14:37:28
+At: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error Code: 23000
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '7' for key 'PRIMARY'
+
+Time : 14:21:52
+At: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error Code: 23000
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '7' for key 'PRIMARY'
+
+Time : 14:20:33
+At: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error Code: 00000
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '7' for key 'PRIMARY'
+
+Time : 14:12:23
+At: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '7' for key 'PRIMARY'
+
+Time : 14:11:27
+At: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '7' for key 'PRIMARY'
+
+Time : 14:11:06
+At: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '7' for key 'PRIMARY'
+
+Time : 14:00:48
+At: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '7' for key 'PRIMARY'

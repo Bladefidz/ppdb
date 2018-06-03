@@ -1,0 +1,535 @@
+Time : 12:40:06
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ppdb.ppdb_user' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT u.uid, u...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT u.uid, u...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\UserModel.php(178): Database\Driver\PdoDb->query('SELECT u.uid, u...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\controllers\User.php(52): Models\UserModel->verify('hafidz', 'kontil100%')
+#4 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(101): Controllers\User->login()
+#5 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Use...')
+#6 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#7 {main}
+
+Time : 12:39:58
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ppdb.ppdb_user' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT u.uid, u...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT u.uid, u...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\UserModel.php(178): Database\Driver\PdoDb->query('SELECT u.uid, u...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\controllers\User.php(52): Models\UserModel->verify('hafidz', 'kontil100%')
+#4 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(101): Controllers\User->login()
+#5 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Use...')
+#6 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#7 {main}
+
+Time : 12:39:50
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ppdb.ppdb_user' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT u.uid, u...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT u.uid, u...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\UserModel.php(178): Database\Driver\PdoDb->query('SELECT u.uid, u...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\controllers\User.php(52): Models\UserModel->verify('admin', 'kontil100%')
+#4 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(101): Controllers\User->login()
+#5 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Use...')
+#6 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#7 {main}
+
+Time : 12:39:45
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ppdb.ppdb_gelombang' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT * FROM p...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT * FROM p...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\GelombangModel.php(73): Database\Driver\PdoDb->query('SELECT * FROM p...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\models\GelombangModel.php(94): Models\GelombangModel->getGelYear('2015', NULL)
+#4 D:\xampp\htdocs\panitiappdb.man2\application\models\GelombangModel.php(21): Models\GelombangModel->getGelStat()
+#5 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(19): Models\GelombangModel->__construct()
+#6 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(97): Controllers\Home->__construct(NULL)
+#7 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Hom...')
+#8 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#9 {main}
+
+Time : 12:39:45
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ppdb.ppdb_gelombang' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT * FROM p...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT * FROM p...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\GelombangModel.php(60): Database\Driver\PdoDb->query('SELECT * FROM p...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\models\GelombangModel.php(78): Models\GelombangModel->getGelsYear('2015')
+#4 D:\xampp\htdocs\panitiappdb.man2\application\models\GelombangModel.php(21): Models\GelombangModel->getGelStat()
+#5 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(19): Models\GelombangModel->__construct()
+#6 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(97): Controllers\Home->__construct(NULL)
+#7 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Hom...')
+#8 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#9 {main}
+
+Time : 12:39:41
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ppdb.ppdb_pendaftaran_data' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT COUNT(na...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT COUNT(na...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\PendaftaranModel.php(345): Database\Driver\PdoDb->query('SELECT COUNT(na...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(44): Models\PendaftaranModel->numbyYidVid(NULL, 7)
+#4 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(27): Controllers\Home->admin()
+#5 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(101): Controllers\Home->index()
+#6 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Hom...')
+#7 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#8 {main}
+
+Time : 12:39:41
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ppdb.ppdb_pendaftaran_data' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT * FROM p...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT * FROM p...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\SeleksiModel.php(199): Database\Driver\PdoDb->query('SELECT * FROM p...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(43): Models\SeleksiModel->getDiterima('2015')
+#4 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(27): Controllers\Home->admin()
+#5 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(101): Controllers\Home->index()
+#6 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Hom...')
+#7 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#8 {main}
+
+Time : 12:39:41
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ppdb.ppdb_pendaftaran_data' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT COUNT(na...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT COUNT(na...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\PendaftaranModel.php(345): Database\Driver\PdoDb->query('SELECT COUNT(na...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(42): Models\PendaftaranModel->numbyYidVid(NULL, 3)
+#4 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(27): Controllers\Home->admin()
+#5 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(101): Controllers\Home->index()
+#6 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Hom...')
+#7 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#8 {main}
+
+Time : 12:39:41
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ppdb.ppdb_pendaftaran_data' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT COUNT(na...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT COUNT(na...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\PendaftaranModel.php(333): Database\Driver\PdoDb->query('SELECT COUNT(na...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(41): Models\PendaftaranModel->numbyYearId(NULL)
+#4 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(27): Controllers\Home->admin()
+#5 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(101): Controllers\Home->index()
+#6 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Hom...')
+#7 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#8 {main}
+
+Time : 12:39:41
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ppdb.ppdb_jalur' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT SUM(daya...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT SUM(daya...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\JalurModel.php(97): Database\Driver\PdoDb->query('SELECT SUM(daya...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(38): Models\JalurModel->getTotalPagu('2015')
+#4 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(27): Controllers\Home->admin()
+#5 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(101): Controllers\Home->index()
+#6 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Hom...')
+#7 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#8 {main}
+
+Time : 12:39:41
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ppdb.ppdb_tahun_ajaran' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT * FROM p...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT * FROM p...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\TahunAjaranModel.php(50): Database\Driver\PdoDb->query('SELECT * FROM p...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\models\TahunAjaranModel.php(55): Models\TahunAjaranModel->checkThnAjar('2015')
+#4 D:\xampp\htdocs\panitiappdb.man2\application\models\JalurModel.php(94): Models\TahunAjaranModel->getThnAjarId('2015')
+#5 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(38): Models\JalurModel->getTotalPagu('2015')
+#6 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(27): Controllers\Home->admin()
+#7 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(101): Controllers\Home->index()
+#8 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Hom...')
+#9 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#10 {main}
+
+Time : 12:39:41
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ppdb.ppdb_jalur' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT * FROM p...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT * FROM p...', NULL)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\JalurModel.php(43): Database\Driver\PdoDb->query('SELECT * FROM p...')
+#3 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(37): Models\JalurModel->getJalur()
+#4 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(27): Controllers\Home->admin()
+#5 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(101): Controllers\Home->index()
+#6 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Hom...')
+#7 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#8 {main}
+
+Time : 12:39:41
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ppdb.ppdb_gelombang' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT * FROM p...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT * FROM p...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\GelombangModel.php(60): Database\Driver\PdoDb->query('SELECT * FROM p...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(35): Models\GelombangModel->getGelsYear('2015')
+#4 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(27): Controllers\Home->admin()
+#5 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(101): Controllers\Home->index()
+#6 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Hom...')
+#7 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#8 {main}
+
+Time : 12:39:41
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ppdb.ppdb_gelombang' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT * FROM p...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT * FROM p...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\GelombangModel.php(73): Database\Driver\PdoDb->query('SELECT * FROM p...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\models\GelombangModel.php(94): Models\GelombangModel->getGelYear('2015', NULL)
+#4 D:\xampp\htdocs\panitiappdb.man2\application\models\GelombangModel.php(21): Models\GelombangModel->getGelStat()
+#5 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(19): Models\GelombangModel->__construct()
+#6 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(97): Controllers\Home->__construct(NULL)
+#7 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Hom...')
+#8 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#9 {main}
+
+Time : 12:39:41
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ppdb.ppdb_gelombang' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT * FROM p...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT * FROM p...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\GelombangModel.php(60): Database\Driver\PdoDb->query('SELECT * FROM p...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\models\GelombangModel.php(78): Models\GelombangModel->getGelsYear('2015')
+#4 D:\xampp\htdocs\panitiappdb.man2\application\models\GelombangModel.php(21): Models\GelombangModel->getGelStat()
+#5 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(19): Models\GelombangModel->__construct()
+#6 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(97): Controllers\Home->__construct(NULL)
+#7 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Hom...')
+#8 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#9 {main}
+
+Time : 12:39:37
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ppdb.ppdb_pendaftaran_data' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT COUNT(na...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT COUNT(na...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\PendaftaranModel.php(345): Database\Driver\PdoDb->query('SELECT COUNT(na...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(44): Models\PendaftaranModel->numbyYidVid(NULL, 7)
+#4 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(27): Controllers\Home->admin()
+#5 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(101): Controllers\Home->index()
+#6 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Hom...')
+#7 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#8 {main}
+
+Time : 12:39:37
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ppdb.ppdb_pendaftaran_data' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT * FROM p...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT * FROM p...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\SeleksiModel.php(199): Database\Driver\PdoDb->query('SELECT * FROM p...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(43): Models\SeleksiModel->getDiterima('2015')
+#4 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(27): Controllers\Home->admin()
+#5 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(101): Controllers\Home->index()
+#6 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Hom...')
+#7 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#8 {main}
+
+Time : 12:39:37
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ppdb.ppdb_pendaftaran_data' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT COUNT(na...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT COUNT(na...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\PendaftaranModel.php(345): Database\Driver\PdoDb->query('SELECT COUNT(na...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(42): Models\PendaftaranModel->numbyYidVid(NULL, 3)
+#4 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(27): Controllers\Home->admin()
+#5 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(101): Controllers\Home->index()
+#6 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Hom...')
+#7 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#8 {main}
+
+Time : 12:39:37
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ppdb.ppdb_pendaftaran_data' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT COUNT(na...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT COUNT(na...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\PendaftaranModel.php(333): Database\Driver\PdoDb->query('SELECT COUNT(na...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(41): Models\PendaftaranModel->numbyYearId(NULL)
+#4 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(27): Controllers\Home->admin()
+#5 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(101): Controllers\Home->index()
+#6 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Hom...')
+#7 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#8 {main}
+
+Time : 12:39:37
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ppdb.ppdb_jalur' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT SUM(daya...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT SUM(daya...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\JalurModel.php(97): Database\Driver\PdoDb->query('SELECT SUM(daya...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(38): Models\JalurModel->getTotalPagu('2015')
+#4 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(27): Controllers\Home->admin()
+#5 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(101): Controllers\Home->index()
+#6 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Hom...')
+#7 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#8 {main}
+
+Time : 12:39:37
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ppdb.ppdb_tahun_ajaran' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT * FROM p...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT * FROM p...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\TahunAjaranModel.php(50): Database\Driver\PdoDb->query('SELECT * FROM p...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\models\TahunAjaranModel.php(55): Models\TahunAjaranModel->checkThnAjar('2015')
+#4 D:\xampp\htdocs\panitiappdb.man2\application\models\JalurModel.php(94): Models\TahunAjaranModel->getThnAjarId('2015')
+#5 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(38): Models\JalurModel->getTotalPagu('2015')
+#6 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(27): Controllers\Home->admin()
+#7 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(101): Controllers\Home->index()
+#8 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Hom...')
+#9 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#10 {main}
+
+Time : 12:39:37
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ppdb.ppdb_jalur' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT * FROM p...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT * FROM p...', NULL)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\JalurModel.php(43): Database\Driver\PdoDb->query('SELECT * FROM p...')
+#3 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(37): Models\JalurModel->getJalur()
+#4 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(27): Controllers\Home->admin()
+#5 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(101): Controllers\Home->index()
+#6 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Hom...')
+#7 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#8 {main}
+
+Time : 12:39:37
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ppdb.ppdb_gelombang' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT * FROM p...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT * FROM p...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\GelombangModel.php(60): Database\Driver\PdoDb->query('SELECT * FROM p...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(35): Models\GelombangModel->getGelsYear('2015')
+#4 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(27): Controllers\Home->admin()
+#5 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(101): Controllers\Home->index()
+#6 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Hom...')
+#7 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#8 {main}
+
+Time : 12:39:37
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ppdb.ppdb_gelombang' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT * FROM p...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT * FROM p...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\GelombangModel.php(73): Database\Driver\PdoDb->query('SELECT * FROM p...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\models\GelombangModel.php(94): Models\GelombangModel->getGelYear('2015', NULL)
+#4 D:\xampp\htdocs\panitiappdb.man2\application\models\GelombangModel.php(21): Models\GelombangModel->getGelStat()
+#5 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(19): Models\GelombangModel->__construct()
+#6 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(97): Controllers\Home->__construct(NULL)
+#7 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Hom...')
+#8 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#9 {main}
+
+Time : 12:39:37
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ppdb.ppdb_gelombang' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT * FROM p...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT * FROM p...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\GelombangModel.php(60): Database\Driver\PdoDb->query('SELECT * FROM p...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\models\GelombangModel.php(78): Models\GelombangModel->getGelsYear('2015')
+#4 D:\xampp\htdocs\panitiappdb.man2\application\models\GelombangModel.php(21): Models\GelombangModel->getGelStat()
+#5 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(19): Models\GelombangModel->__construct()
+#6 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(97): Controllers\Home->__construct(NULL)
+#7 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Hom...')
+#8 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#9 {main}
+
+Time : 12:39:30
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ppdb.ppdb_pendaftaran_data' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT COUNT(na...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT COUNT(na...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\PendaftaranModel.php(345): Database\Driver\PdoDb->query('SELECT COUNT(na...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(44): Models\PendaftaranModel->numbyYidVid(NULL, 7)
+#4 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(27): Controllers\Home->admin()
+#5 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(101): Controllers\Home->index()
+#6 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Hom...')
+#7 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#8 {main}
+
+Time : 12:39:30
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ppdb.ppdb_pendaftaran_data' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT * FROM p...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT * FROM p...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\SeleksiModel.php(199): Database\Driver\PdoDb->query('SELECT * FROM p...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(43): Models\SeleksiModel->getDiterima('2015')
+#4 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(27): Controllers\Home->admin()
+#5 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(101): Controllers\Home->index()
+#6 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Hom...')
+#7 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#8 {main}
+
+Time : 12:39:30
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ppdb.ppdb_pendaftaran_data' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT COUNT(na...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT COUNT(na...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\PendaftaranModel.php(345): Database\Driver\PdoDb->query('SELECT COUNT(na...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(42): Models\PendaftaranModel->numbyYidVid(NULL, 3)
+#4 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(27): Controllers\Home->admin()
+#5 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(101): Controllers\Home->index()
+#6 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Hom...')
+#7 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#8 {main}
+
+Time : 12:39:30
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ppdb.ppdb_pendaftaran_data' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT COUNT(na...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT COUNT(na...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\PendaftaranModel.php(333): Database\Driver\PdoDb->query('SELECT COUNT(na...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(41): Models\PendaftaranModel->numbyYearId(NULL)
+#4 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(27): Controllers\Home->admin()
+#5 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(101): Controllers\Home->index()
+#6 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Hom...')
+#7 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#8 {main}
+
+Time : 12:39:30
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ppdb.ppdb_jalur' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT SUM(daya...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT SUM(daya...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\JalurModel.php(97): Database\Driver\PdoDb->query('SELECT SUM(daya...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(38): Models\JalurModel->getTotalPagu('2015')
+#4 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(27): Controllers\Home->admin()
+#5 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(101): Controllers\Home->index()
+#6 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Hom...')
+#7 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#8 {main}
+
+Time : 12:39:30
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ppdb.ppdb_tahun_ajaran' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT * FROM p...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT * FROM p...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\TahunAjaranModel.php(50): Database\Driver\PdoDb->query('SELECT * FROM p...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\models\TahunAjaranModel.php(55): Models\TahunAjaranModel->checkThnAjar('2015')
+#4 D:\xampp\htdocs\panitiappdb.man2\application\models\JalurModel.php(94): Models\TahunAjaranModel->getThnAjarId('2015')
+#5 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(38): Models\JalurModel->getTotalPagu('2015')
+#6 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(27): Controllers\Home->admin()
+#7 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(101): Controllers\Home->index()
+#8 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Hom...')
+#9 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#10 {main}
+
+Time : 12:39:30
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ppdb.ppdb_jalur' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT * FROM p...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT * FROM p...', NULL)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\JalurModel.php(43): Database\Driver\PdoDb->query('SELECT * FROM p...')
+#3 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(37): Models\JalurModel->getJalur()
+#4 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(27): Controllers\Home->admin()
+#5 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(101): Controllers\Home->index()
+#6 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Hom...')
+#7 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#8 {main}
+
+Time : 12:39:30
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ppdb.ppdb_gelombang' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT * FROM p...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT * FROM p...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\GelombangModel.php(60): Database\Driver\PdoDb->query('SELECT * FROM p...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(35): Models\GelombangModel->getGelsYear('2015')
+#4 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(27): Controllers\Home->admin()
+#5 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(101): Controllers\Home->index()
+#6 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Hom...')
+#7 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#8 {main}
+
+Time : 12:39:30
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ppdb.ppdb_gelombang' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT * FROM p...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT * FROM p...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\GelombangModel.php(73): Database\Driver\PdoDb->query('SELECT * FROM p...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\models\GelombangModel.php(94): Models\GelombangModel->getGelYear('2015', NULL)
+#4 D:\xampp\htdocs\panitiappdb.man2\application\models\GelombangModel.php(21): Models\GelombangModel->getGelStat()
+#5 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(19): Models\GelombangModel->__construct()
+#6 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(97): Controllers\Home->__construct(NULL)
+#7 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Hom...')
+#8 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#9 {main}
+
+Time : 12:39:30
+Error Code: 42S02
+Error Message SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ppdb.ppdb_gelombang' doesn't exist
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 180
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(180): PDO->prepare('SELECT * FROM p...')
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('SELECT * FROM p...', Array)
+#2 D:\xampp\htdocs\panitiappdb.man2\application\models\GelombangModel.php(60): Database\Driver\PdoDb->query('SELECT * FROM p...', Array)
+#3 D:\xampp\htdocs\panitiappdb.man2\application\models\GelombangModel.php(78): Models\GelombangModel->getGelsYear('2015')
+#4 D:\xampp\htdocs\panitiappdb.man2\application\models\GelombangModel.php(21): Models\GelombangModel->getGelStat()
+#5 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(19): Models\GelombangModel->__construct()
+#6 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(97): Controllers\Home->__construct(NULL)
+#7 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Hom...')
+#8 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#9 {main}

@@ -1,0 +1,413 @@
+Time : 04:41:59
+Error Code: HY093
+Error Message SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Error File: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 189
+Error Trace: #0 D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(189): PDOStatement->bindParam(':usr', 'hafidz')
+#1 D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(225): Database\Driver\PdoDb->init('UPDATE ppdb_use...', Array)
+#2 D:\var\www\panitiappdb.man2\application\models\UserModel.php(196): Database\Driver\PdoDb->query('UPDATE ppdb_use...', Array)
+#3 D:\var\www\panitiappdb.man2\application\controllers\User.php(55): Models\UserModel->updateUserInfo('ed423a1308fb57a...')
+#4 D:\var\www\panitiappdb.man2\simplex\core\Router.php(101): Controllers\User->login()
+#5 D:\var\www\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Use...')
+#6 D:\var\www\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#7 {main}
+
+Time : 04:31:24
+Error Code: 23000
+Error Message SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8' for key 'PRIMARY'
+Error File: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 193
+Error Trace: #0 D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(193): PDOStatement->execute()
+#1 D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(225): Database\Driver\PdoDb->init('INSERT INTO ppd...', Array)
+#2 D:\var\www\panitiappdb.man2\application\models\TestingModel.php(18): Database\Driver\PdoDb->query('INSERT INTO ppd...', Array)
+#3 D:\var\www\panitiappdb.man2\application\controllers\Testing.php(30): Models\TestingModel->insert('8', 'waw')
+#4 [internal function]: Controllers\Testing->insert('8', 'waw')
+#5 D:\var\www\panitiappdb.man2\simplex\core\Router.php(104): call_user_func_array(Array, Array)
+#6 D:\var\www\panitiappdb.man2\simplex\core\Router.php(229): Core\Router::invokeObject('Controllers\\Tes...', Array)
+#7 D:\var\www\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#8 {main}
+
+Time : 04:08:20
+Error Code: 23000
+Error Message SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8' for key 'PRIMARY'
+Error File: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 193
+Error Trace: #0 D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(193): PDOStatement->execute()
+#1 D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(225): Database\Driver\PdoDb->init('INSERT INTO ppd...', Array)
+#2 D:\var\www\panitiappdb.man2\application\models\TestingModel.php(18): Database\Driver\PdoDb->query('INSERT INTO ppd...', Array)
+#3 D:\var\www\panitiappdb.man2\application\controllers\Testing.php(30): Models\TestingModel->insert('8', 'waw')
+#4 [internal function]: Controllers\Testing->insert('8', 'waw')
+#5 D:\var\www\panitiappdb.man2\simplex\core\Router.php(104): call_user_func_array(Array, Array)
+#6 D:\var\www\panitiappdb.man2\simplex\core\Router.php(229): Core\Router::invokeObject('Controllers\\Tes...', Array)
+#7 D:\var\www\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#8 {main}
+
+Time : 04:08:02
+Error Code: 23000
+Error Message SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8' for key 'PRIMARY'
+Error File: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 193
+Error Trace: #0 D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(193): PDOStatement->execute()
+#1 D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(225): Database\Driver\PdoDb->init('INSERT INTO ppd...', Array)
+#2 D:\var\www\panitiappdb.man2\application\models\TestingModel.php(18): Database\Driver\PdoDb->query('INSERT INTO ppd...', Array)
+#3 D:\var\www\panitiappdb.man2\application\controllers\Testing.php(30): Models\TestingModel->insert('8', 'waw')
+#4 [internal function]: Controllers\Testing->insert('8', 'waw')
+#5 D:\var\www\panitiappdb.man2\simplex\core\Router.php(104): call_user_func_array(Array, Array)
+#6 D:\var\www\panitiappdb.man2\simplex\core\Router.php(229): Core\Router::invokeObject('Controllers\\Tes...', Array)
+#7 D:\var\www\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#8 {main}
+
+Time : 04:07:46
+Error Code: 23000
+Error Message SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8' for key 'PRIMARY'
+Error File: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 193
+Error Trace: #0 D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(193): PDOStatement->execute()
+#1 D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(225): Database\Driver\PdoDb->init('INSERT INTO ppd...', Array)
+#2 D:\var\www\panitiappdb.man2\application\models\TestingModel.php(18): Database\Driver\PdoDb->query('INSERT INTO ppd...', Array)
+#3 D:\var\www\panitiappdb.man2\application\controllers\Testing.php(30): Models\TestingModel->insert('8', 'waw')
+#4 [internal function]: Controllers\Testing->insert('8', 'waw')
+#5 D:\var\www\panitiappdb.man2\simplex\core\Router.php(104): call_user_func_array(Array, Array)
+#6 D:\var\www\panitiappdb.man2\simplex\core\Router.php(229): Core\Router::invokeObject('Controllers\\Tes...', Array)
+#7 D:\var\www\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#8 {main}
+
+Time : 04:05:42
+Error Code: 23000
+Error Message SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '8' for key 'PRIMARY'
+Error File: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 195
+Error Trace: #0 D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(195): PDOStatement->execute()
+#1 D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('INSERT INTO ppd...', Array)
+#2 D:\var\www\panitiappdb.man2\application\models\TestingModel.php(18): Database\Driver\PdoDb->query('INSERT INTO ppd...', Array)
+#3 D:\var\www\panitiappdb.man2\application\controllers\Testing.php(30): Models\TestingModel->insert('8', 'waw')
+#4 [internal function]: Controllers\Testing->insert('8', 'waw')
+#5 D:\var\www\panitiappdb.man2\simplex\core\Router.php(104): call_user_func_array(Array, Array)
+#6 D:\var\www\panitiappdb.man2\simplex\core\Router.php(229): Core\Router::invokeObject('Controllers\\Tes...', Array)
+#7 D:\var\www\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#8 {main}
+
+Time : 04:02:38
+Error Code: 23000
+Error Message SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '7' for key 'PRIMARY'
+Error File: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 194
+Error Trace: #0 D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(194): PDOStatement->execute()
+#1 D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(226): Database\Driver\PdoDb->init('INSERT INTO ppd...', Array)
+#2 D:\var\www\panitiappdb.man2\application\models\TestingModel.php(18): Database\Driver\PdoDb->query('INSERT INTO ppd...', Array)
+#3 D:\var\www\panitiappdb.man2\application\controllers\Testing.php(30): Models\TestingModel->insert('7', 'waw')
+#4 [internal function]: Controllers\Testing->insert('7', 'waw')
+#5 D:\var\www\panitiappdb.man2\simplex\core\Router.php(104): call_user_func_array(Array, Array)
+#6 D:\var\www\panitiappdb.man2\simplex\core\Router.php(229): Core\Router::invokeObject('Controllers\\Tes...', Array)
+#7 D:\var\www\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#8 {main}
+
+Time : 04:02:35
+Error Code: 23000
+Error Message SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '7' for key 'PRIMARY'
+Error File: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 194
+Error Trace: #0 D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(194): PDOStatement->execute()
+#1 D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(226): Database\Driver\PdoDb->init('INSERT INTO ppd...', Array)
+#2 D:\var\www\panitiappdb.man2\application\models\TestingModel.php(18): Database\Driver\PdoDb->query('INSERT INTO ppd...', Array)
+#3 D:\var\www\panitiappdb.man2\application\controllers\Testing.php(30): Models\TestingModel->insert('7', 'waw')
+#4 [internal function]: Controllers\Testing->insert('7', 'waw')
+#5 D:\var\www\panitiappdb.man2\simplex\core\Router.php(104): call_user_func_array(Array, Array)
+#6 D:\var\www\panitiappdb.man2\simplex\core\Router.php(229): Core\Router::invokeObject('Controllers\\Tes...', Array)
+#7 D:\var\www\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#8 {main}
+
+Time : 04:02:19
+Error Code: 23000
+Error Message SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '7' for key 'PRIMARY'
+Error File: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 194
+Error Trace: #0 D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(194): PDOStatement->execute()
+#1 D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(226): Database\Driver\PdoDb->init('INSERT INTO ppd...', Array)
+#2 D:\var\www\panitiappdb.man2\application\models\TestingModel.php(18): Database\Driver\PdoDb->query('INSERT INTO ppd...', Array)
+#3 D:\var\www\panitiappdb.man2\application\controllers\Testing.php(30): Models\TestingModel->insert('7', 'waw')
+#4 [internal function]: Controllers\Testing->insert('7', 'waw')
+#5 D:\var\www\panitiappdb.man2\simplex\core\Router.php(104): call_user_func_array(Array, Array)
+#6 D:\var\www\panitiappdb.man2\simplex\core\Router.php(229): Core\Router::invokeObject('Controllers\\Tes...', Array)
+#7 D:\var\www\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#8 {main}
+
+Time : 04:02:00
+Error Code: 23000
+Error Message SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '7' for key 'PRIMARY'
+Error File: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 194
+Error Trace: #0 D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(194): PDOStatement->execute()
+#1 D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(226): Database\Driver\PdoDb->init('INSERT INTO ppd...', Array)
+#2 D:\var\www\panitiappdb.man2\application\models\TestingModel.php(18): Database\Driver\PdoDb->query('INSERT INTO ppd...', Array)
+#3 D:\var\www\panitiappdb.man2\application\controllers\Testing.php(30): Models\TestingModel->insert('7', 'waw')
+#4 [internal function]: Controllers\Testing->insert('7', 'waw')
+#5 D:\var\www\panitiappdb.man2\simplex\core\Router.php(104): call_user_func_array(Array, Array)
+#6 D:\var\www\panitiappdb.man2\simplex\core\Router.php(229): Core\Router::invokeObject('Controllers\\Tes...', Array)
+#7 D:\var\www\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#8 {main}
+
+Time : 04:01:43
+Error Code: 23000
+Error Message SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '7' for key 'PRIMARY'
+Error File: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 194
+Error Trace: #0 D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(194): PDOStatement->execute()
+#1 D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(226): Database\Driver\PdoDb->init('INSERT INTO ppd...', Array)
+#2 D:\var\www\panitiappdb.man2\application\models\TestingModel.php(18): Database\Driver\PdoDb->query('INSERT INTO ppd...', Array)
+#3 D:\var\www\panitiappdb.man2\application\controllers\Testing.php(30): Models\TestingModel->insert('7', 'waw')
+#4 [internal function]: Controllers\Testing->insert('7', 'waw')
+#5 D:\var\www\panitiappdb.man2\simplex\core\Router.php(104): call_user_func_array(Array, Array)
+#6 D:\var\www\panitiappdb.man2\simplex\core\Router.php(229): Core\Router::invokeObject('Controllers\\Tes...', Array)
+#7 D:\var\www\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#8 {main}
+
+Time : 03:58:26
+Error Code: 23000
+Error Message SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '7' for key 'PRIMARY'
+Error File: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 194
+Error Trace: #0 D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(194): PDOStatement->execute()
+#1 D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(231): Database\Driver\PdoDb->init('INSERT INTO ppd...', Array)
+#2 D:\var\www\panitiappdb.man2\application\models\TestingModel.php(18): Database\Driver\PdoDb->query('INSERT INTO ppd...', Array)
+#3 D:\var\www\panitiappdb.man2\application\controllers\Testing.php(30): Models\TestingModel->insert('7', 'waw')
+#4 [internal function]: Controllers\Testing->insert('7', 'waw')
+#5 D:\var\www\panitiappdb.man2\simplex\core\Router.php(104): call_user_func_array(Array, Array)
+#6 D:\var\www\panitiappdb.man2\simplex\core\Router.php(229): Core\Router::invokeObject('Controllers\\Tes...', Array)
+#7 D:\var\www\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#8 {main}
+
+Time : 03:55:21
+Error Code: 23000
+Error Message SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '7' for key 'PRIMARY'
+Error File: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 194
+Error Trace: #0 D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(194): PDOStatement->execute()
+#1 D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(225): Database\Driver\PdoDb->init('INSERT INTO ppd...', Array)
+#2 D:\var\www\panitiappdb.man2\application\models\TestingModel.php(18): Database\Driver\PdoDb->query('INSERT INTO ppd...', Array)
+#3 D:\var\www\panitiappdb.man2\application\controllers\Testing.php(30): Models\TestingModel->insert('7', 'waw')
+#4 [internal function]: Controllers\Testing->insert('7', 'waw')
+#5 D:\var\www\panitiappdb.man2\simplex\core\Router.php(104): call_user_func_array(Array, Array)
+#6 D:\var\www\panitiappdb.man2\simplex\core\Router.php(229): Core\Router::invokeObject('Controllers\\Tes...', Array)
+#7 D:\var\www\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#8 {main}
+
+Time : 03:36:57
+Error Code: 23000
+Error Message SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '7' for key 'PRIMARY'
+Error File: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 199
+Error Trace: #0 D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(199): PDOStatement->execute()
+#1 D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(229): Database\Driver\PdoDb->init('INSERT INTO ppd...', Array)
+#2 D:\var\www\panitiappdb.man2\application\models\TestingModel.php(18): Database\Driver\PdoDb->query('INSERT INTO ppd...', Array)
+#3 D:\var\www\panitiappdb.man2\application\controllers\Testing.php(30): Models\TestingModel->insert('7', 'waw')
+#4 [internal function]: Controllers\Testing->insert('7', 'waw')
+#5 D:\var\www\panitiappdb.man2\simplex\core\Router.php(104): call_user_func_array(Array, Array)
+#6 D:\var\www\panitiappdb.man2\simplex\core\Router.php(229): Core\Router::invokeObject('Controllers\\Tes...', Array)
+#7 D:\var\www\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#8 {main}
+
+Time : 03:36:30
+Error Code: 23000
+Error Message SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '7' for key 'PRIMARY'
+Error File: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 199
+Error Trace: #0 D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(199): PDOStatement->execute()
+#1 D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(229): Database\Driver\PdoDb->init('INSERT INTO ppd...', Array)
+#2 D:\var\www\panitiappdb.man2\application\models\TestingModel.php(18): Database\Driver\PdoDb->query('INSERT INTO ppd...', Array)
+#3 D:\var\www\panitiappdb.man2\application\controllers\Testing.php(30): Models\TestingModel->insert('7', 'waw')
+#4 [internal function]: Controllers\Testing->insert('7', 'waw')
+#5 D:\var\www\panitiappdb.man2\simplex\core\Router.php(104): call_user_func_array(Array, Array)
+#6 D:\var\www\panitiappdb.man2\simplex\core\Router.php(229): Core\Router::invokeObject('Controllers\\Tes...', Array)
+#7 D:\var\www\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#8 {main}
+
+Time : 03:35:32
+Error Code: 23000
+Error Message SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '7' for key 'PRIMARY'
+Error File: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 199
+Error Trace: #0 D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(199): PDOStatement->execute()
+#1 D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(229): Database\Driver\PdoDb->init('INSERT INTO ppd...', Array)
+#2 D:\var\www\panitiappdb.man2\application\models\TestingModel.php(18): Database\Driver\PdoDb->query('INSERT INTO ppd...', Array)
+#3 D:\var\www\panitiappdb.man2\application\controllers\Testing.php(30): Models\TestingModel->insert('7', 'waw')
+#4 [internal function]: Controllers\Testing->insert('7', 'waw')
+#5 D:\var\www\panitiappdb.man2\simplex\core\Router.php(104): call_user_func_array(Array, Array)
+#6 D:\var\www\panitiappdb.man2\simplex\core\Router.php(229): Core\Router::invokeObject('Controllers\\Tes...', Array)
+#7 D:\var\www\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#8 {main}
+
+Time : 03:33:23
+Error Code: 23000
+Error Message SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '7' for key 'PRIMARY'
+Error File: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 199
+Error Trace: #0 D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(199): PDOStatement->execute()
+#1 D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(229): Database\Driver\PdoDb->init('INSERT INTO ppd...', Array)
+#2 D:\var\www\panitiappdb.man2\application\models\TestingModel.php(18): Database\Driver\PdoDb->query('INSERT INTO ppd...', Array)
+#3 D:\var\www\panitiappdb.man2\application\controllers\Testing.php(30): Models\TestingModel->insert('7', 'waw')
+#4 [internal function]: Controllers\Testing->insert('7', 'waw')
+#5 D:\var\www\panitiappdb.man2\simplex\core\Router.php(104): call_user_func_array(Array, Array)
+#6 D:\var\www\panitiappdb.man2\simplex\core\Router.php(229): Core\Router::invokeObject('Controllers\\Tes...', Array)
+#7 D:\var\www\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#8 {main}
+
+Time : 03:32:48
+Error Code: 23000
+Error Message SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '7' for key 'PRIMARY'
+Error File: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 199
+Error Trace: #0 D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(199): PDOStatement->execute()
+#1 D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(230): Database\Driver\PdoDb->init('INSERT INTO ppd...', Array)
+#2 D:\var\www\panitiappdb.man2\application\models\TestingModel.php(18): Database\Driver\PdoDb->query('INSERT INTO ppd...', Array)
+#3 D:\var\www\panitiappdb.man2\application\controllers\Testing.php(30): Models\TestingModel->insert('7', 'waw')
+#4 [internal function]: Controllers\Testing->insert('7', 'waw')
+#5 D:\var\www\panitiappdb.man2\simplex\core\Router.php(104): call_user_func_array(Array, Array)
+#6 D:\var\www\panitiappdb.man2\simplex\core\Router.php(229): Core\Router::invokeObject('Controllers\\Tes...', Array)
+#7 D:\var\www\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#8 {main}
+
+Time : 03:31:43
+Error Code: 23000
+Error Message SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '7' for key 'PRIMARY'
+Error File: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 199
+Error Trace: #0 D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(199): PDOStatement->execute()
+#1 D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(230): Database\Driver\PdoDb->init('INSERT INTO ppd...', Array)
+#2 D:\var\www\panitiappdb.man2\application\models\TestingModel.php(18): Database\Driver\PdoDb->query('INSERT INTO ppd...', Array)
+#3 D:\var\www\panitiappdb.man2\application\controllers\Testing.php(30): Models\TestingModel->insert('7', 'waw')
+#4 [internal function]: Controllers\Testing->insert('7', 'waw')
+#5 D:\var\www\panitiappdb.man2\simplex\core\Router.php(104): call_user_func_array(Array, Array)
+#6 D:\var\www\panitiappdb.man2\simplex\core\Router.php(229): Core\Router::invokeObject('Controllers\\Tes...', Array)
+#7 D:\var\www\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#8 {main}
+
+Time : 03:30:37
+Error Code: HY093
+Error Message SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Error File: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 194
+Error Trace: #0 D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(194): PDOStatement->bindParam(':usr', 'hafidz')
+#1 D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(230): Database\Driver\PdoDb->init('UPDATE ppdb_use...', Array)
+#2 D:\var\www\panitiappdb.man2\application\models\UserModel.php(196): Database\Driver\PdoDb->query('UPDATE ppdb_use...', Array)
+#3 D:\var\www\panitiappdb.man2\application\controllers\User.php(55): Models\UserModel->updateUserInfo('3a8f3cdf3b15f70...')
+#4 D:\var\www\panitiappdb.man2\simplex\core\Router.php(101): Controllers\User->login()
+#5 D:\var\www\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Use...')
+#6 D:\var\www\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#7 {main}
+
+Time : 03:28:25
+Error Code: HY093
+Error Message SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Error File: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 194
+Error Trace: #0 D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(194): PDOStatement->bindParam(':usr', 'hafidz')
+#1 D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(230): Database\Driver\PdoDb->init('UPDATE ppdb_use...', Array)
+#2 D:\var\www\panitiappdb.man2\application\models\UserModel.php(196): Database\Driver\PdoDb->query('UPDATE ppdb_use...', Array)
+#3 D:\var\www\panitiappdb.man2\application\controllers\User.php(55): Models\UserModel->updateUserInfo('44832594e9e47e9...')
+#4 D:\var\www\panitiappdb.man2\simplex\core\Router.php(101): Controllers\User->login()
+#5 D:\var\www\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Use...')
+#6 D:\var\www\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#7 {main}
+
+Time : 03:28:06
+Error Code: HY093
+Error Message SQLSTATE[HY093]: Invalid parameter number
+Error File: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 199
+Error Trace: #0 D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(199): PDOStatement->execute()
+#1 D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(230): Database\Driver\PdoDb->init('SELECT COUNT(na...', Array)
+#2 D:\var\www\panitiappdb.man2\application\models\PendaftaranModel.php(345): Database\Driver\PdoDb->query('SELECT COUNT(na...', Array)
+#3 D:\var\www\panitiappdb.man2\application\controllers\Home.php(44): Models\PendaftaranModel->numbyYidVid(1, 7)
+#4 D:\var\www\panitiappdb.man2\application\controllers\Home.php(27): Controllers\Home->admin()
+#5 D:\var\www\panitiappdb.man2\simplex\core\Router.php(101): Controllers\Home->index()
+#6 D:\var\www\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Hom...')
+#7 D:\var\www\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#8 {main}
+
+Time : 03:28:06
+Error Code: HY093
+Error Message SQLSTATE[HY093]: Invalid parameter number
+Error File: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 199
+Error Trace: #0 D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(199): PDOStatement->execute()
+#1 D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(230): Database\Driver\PdoDb->init('SELECT COUNT(na...', Array)
+#2 D:\var\www\panitiappdb.man2\application\models\PendaftaranModel.php(345): Database\Driver\PdoDb->query('SELECT COUNT(na...', Array)
+#3 D:\var\www\panitiappdb.man2\application\controllers\Home.php(42): Models\PendaftaranModel->numbyYidVid(1, 3)
+#4 D:\var\www\panitiappdb.man2\application\controllers\Home.php(27): Controllers\Home->admin()
+#5 D:\var\www\panitiappdb.man2\simplex\core\Router.php(101): Controllers\Home->index()
+#6 D:\var\www\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Hom...')
+#7 D:\var\www\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#8 {main}
+
+Time : 03:24:11
+Error Code: HY093
+Error Message SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Error File: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 194
+Error Trace: #0 D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(194): PDOStatement->bindParam(':usr', 'hafidz')
+#1 D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(230): Database\Driver\PdoDb->init('UPDATE ppdb_use...', Array)
+#2 D:\var\www\panitiappdb.man2\application\models\UserModel.php(196): Database\Driver\PdoDb->query('UPDATE ppdb_use...', Array)
+#3 D:\var\www\panitiappdb.man2\application\controllers\User.php(55): Models\UserModel->updateUserInfo('4273b7ad97d2455...')
+#4 D:\var\www\panitiappdb.man2\simplex\core\Router.php(101): Controllers\User->login()
+#5 D:\var\www\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Use...')
+#6 D:\var\www\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#7 {main}
+
+Time : 03:24:00
+Error Code: HY093
+Error Message SQLSTATE[HY093]: Invalid parameter number
+Error File: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 199
+Error Trace: #0 D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(199): PDOStatement->execute()
+#1 D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(230): Database\Driver\PdoDb->init('SELECT COUNT(na...', Array)
+#2 D:\var\www\panitiappdb.man2\application\models\PendaftaranModel.php(345): Database\Driver\PdoDb->query('SELECT COUNT(na...', Array)
+#3 D:\var\www\panitiappdb.man2\application\controllers\Home.php(44): Models\PendaftaranModel->numbyYidVid(1, 7)
+#4 D:\var\www\panitiappdb.man2\application\controllers\Home.php(27): Controllers\Home->admin()
+#5 D:\var\www\panitiappdb.man2\simplex\core\Router.php(101): Controllers\Home->index()
+#6 D:\var\www\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Hom...')
+#7 D:\var\www\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#8 {main}
+
+Time : 03:24:00
+Error Code: HY093
+Error Message SQLSTATE[HY093]: Invalid parameter number
+Error File: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 199
+Error Trace: #0 D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(199): PDOStatement->execute()
+#1 D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(230): Database\Driver\PdoDb->init('SELECT COUNT(na...', Array)
+#2 D:\var\www\panitiappdb.man2\application\models\PendaftaranModel.php(345): Database\Driver\PdoDb->query('SELECT COUNT(na...', Array)
+#3 D:\var\www\panitiappdb.man2\application\controllers\Home.php(42): Models\PendaftaranModel->numbyYidVid(1, 3)
+#4 D:\var\www\panitiappdb.man2\application\controllers\Home.php(27): Controllers\Home->admin()
+#5 D:\var\www\panitiappdb.man2\simplex\core\Router.php(101): Controllers\Home->index()
+#6 D:\var\www\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Hom...')
+#7 D:\var\www\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#8 {main}
+
+Time : 02:32:26
+At: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+
+Time : 02:32:17
+At: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+SQLSTATE[HY093]: Invalid parameter number
+
+Time : 02:32:17
+At: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+SQLSTATE[HY093]: Invalid parameter number
+
+Time : 02:32:08
+At: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+
+Time : 02:31:32
+At: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+SQLSTATE[HY093]: Invalid parameter number
+
+Time : 02:31:32
+At: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+SQLSTATE[HY093]: Invalid parameter number
+
+Time : 02:26:18
+At: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined

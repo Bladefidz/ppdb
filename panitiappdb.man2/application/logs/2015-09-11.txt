@@ -1,0 +1,19 @@
+Time : 20:19:32
+At: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '7' for key 'PRIMARY'
+
+Time : 20:19:06
+At: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '7' for key 'PRIMARY'
+
+Time : 20:17:01
+At: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?, ?)' at line 1
+
+Time : 20:16:45
+At: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?, ?)' at line 1
+
+Time : 20:08:54
+At: D:\var\www\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`ppdb`.`ppdb_pendaftaran_data`, CONSTRAINT `data_sekolah` FOREIGN KEY (`id_asal_skl`) REFERENCES `ppdb_pendaftaran_data_asal_sekolah` (`id_asal_skl`) ON UPDATE CASCADE)

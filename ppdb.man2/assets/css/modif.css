@@ -1,0 +1,76 @@
+/*
+	Modication css for bootstrap.css and sb-admin-2.css and template
+	by: hafidz;
+*/
+
+@font-face {
+    font-family: 'Open Sans';
+	font-style: 'normal';
+	font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url('../fonts/Open_Sans/OpenSans-Regular.ttf') format('truetype');
+}
+.nav-btn {
+    color: white;
+    padding: 10px 30px 5px 30px;
+    float: right;
+    font-size: 16px;
+}
+.btn-nav {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 0px solid transparent;
+    border-radius: 0px;
+}
+.nav-modif {
+    padding-left: auto;
+    margin-bottom: 0;
+    list-style: none;
+}
+.nav-modif > li {
+    position: relative;
+    display: block;
+}
+.nav-modif > li > a {
+    position: relative;
+    display: block;
+}
+.nav-modif > li > a:hover, .nav-modif > li > a:focus {
+    text-decoration: none;
+}
+.nav-modif > li.disabled > a {
+    color: #777;
+}
+.nav-modif > li.disabled > a:hover, .nav-modif > li.disabled > a:focus {
+    color: #777;
+    text-decoration: none;
+    cursor: not-allowed;
+    background-color: transparent;
+}
+.nav-modif .open > a, .nav-modif .open > a:hover, .nav-modif .open > a:focus {
+    background-color: #eee;
+    border-color: #428bca;
+}
+.nav-modif .nav-divider {
+    height: 1px;
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: #e5e5e5;
+}
+.nav-modif > li > a > img {
+    max-width: none;
+}

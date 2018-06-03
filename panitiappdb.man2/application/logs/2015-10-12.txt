@@ -1,0 +1,56 @@
+Time : 15:36:56
+Error Code: 2002
+Error Message SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 133
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(133): PDO->__construct('mysql:dbname=pp...', 'root', '', Array)
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(118): Database\Driver\PdoDb->connect()
+#2 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoUtil.php(35): Database\Driver\PdoDb->__construct('mysql:dbname=pp...', 'root', '')
+#3 D:\xampp\htdocs\panitiappdb.man2\simplex\database\DB.php(81): Database\Driver\PdoUtil->__construct('mysql:dbname=pp...', 'root', '')
+#4 D:\xampp\htdocs\panitiappdb.man2\simplex\database\DB.php(48): Database\DB->initialize()
+#5 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Model.php(35): Database\DB->__construct(Array)
+#6 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Controller.php(80): Core\Model->__construct()
+#7 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(14): Core\Controller->__construct()
+#8 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(97): Controllers\Home->__construct(NULL)
+#9 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Hom...')
+#10 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#11 {main}
+
+Time : 15:35:21
+Error Code: 2002
+Error Message SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 133
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(133): PDO->__construct('mysql:dbname=pp...', 'root', '', Array)
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(118): Database\Driver\PdoDb->connect()
+#2 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoUtil.php(35): Database\Driver\PdoDb->__construct('mysql:dbname=pp...', 'root', '')
+#3 D:\xampp\htdocs\panitiappdb.man2\simplex\database\DB.php(81): Database\Driver\PdoUtil->__construct('mysql:dbname=pp...', 'root', '')
+#4 D:\xampp\htdocs\panitiappdb.man2\simplex\database\DB.php(48): Database\DB->initialize()
+#5 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Model.php(35): Database\DB->__construct(Array)
+#6 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Controller.php(80): Core\Model->__construct()
+#7 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(14): Core\Controller->__construct()
+#8 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(97): Controllers\Home->__construct(NULL)
+#9 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Hom...')
+#10 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#11 {main}
+
+Time : 15:35:16
+Error Code: 2002
+Error Message SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+
+Error File: D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 133
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(133): PDO->__construct('mysql:dbname=pp...', 'root', '', Array)
+#1 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoDb.php(118): Database\Driver\PdoDb->connect()
+#2 D:\xampp\htdocs\panitiappdb.man2\simplex\database\drivers\pdo\PdoUtil.php(35): Database\Driver\PdoDb->__construct('mysql:dbname=pp...', 'root', '')
+#3 D:\xampp\htdocs\panitiappdb.man2\simplex\database\DB.php(81): Database\Driver\PdoUtil->__construct('mysql:dbname=pp...', 'root', '')
+#4 D:\xampp\htdocs\panitiappdb.man2\simplex\database\DB.php(48): Database\DB->initialize()
+#5 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Model.php(35): Database\DB->__construct(Array)
+#6 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Controller.php(80): Core\Model->__construct()
+#7 D:\xampp\htdocs\panitiappdb.man2\application\controllers\Home.php(14): Core\Controller->__construct()
+#8 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(97): Controllers\Home->__construct(NULL)
+#9 D:\xampp\htdocs\panitiappdb.man2\simplex\core\Router.php(194): Core\Router::invokeObject('Controllers\\Hom...')
+#10 D:\xampp\htdocs\panitiappdb.man2\index.php(77): Core\Router::dispatch()
+#11 {main}

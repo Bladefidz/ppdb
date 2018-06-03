@@ -1,0 +1,31 @@
+body {
+    font-weight: 400;
+}
+
+.nav-pills > li > a {
+    border-radius: 0px;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+    color: #FFF;
+    background-color: #6C7A89;
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(#334556, #2C4257) repeat scroll 0% 0%, #2A3F54 none repeat scroll 0% 0%;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25), 0px 1px 0px rgba(255, 255, 255, 0.16) inset;
+}
+
+.alert-success-flat {
+    border-radius: 0px;
+    background-color: #28B62C;
+    color: #FFF;
+    margin-bottom: 0px;
+}
+
+.alert-danger-flat {
+    border-radius: 0px;
+    background-color: #FF4136;
+    color: #FFF;
+    margin-bottom: 0px;
+}

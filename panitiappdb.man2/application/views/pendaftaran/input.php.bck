@@ -1,0 +1,362 @@
+<div class="row">
+    <?php
+    $attributes = array(
+                        'class' => "form-horizontal",
+                        'id' => 'form_daftar',
+                        'role' => "form",
+                        'enctype' => "multipart/form-data"
+                        );
+    echo $this->formHelper->formOpen('/pendaftaran/input', $attributes);
+    ?>
+    <div class="col-lg-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                Biodata Calon Siswa
+            </div>
+            <div class="panel-body">
+                <div class="col-lg-12">
+                    <input type="hidden" name="id_daftar">
+                    <div class="form-group">
+                        <label class="col-lg-2 control-label">NISN</label>
+                        <div class="col-lg-3">
+                            <input class="form-control" name="nisn" required="required" type="text">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-lg-2 control-label">Nama</label>
+                        <div class="col-lg-4">
+                            <input class="form-control" name="nama" required="required" type="text">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-lg-2 control-label">Jenis Kelamin</label>
+                        <div class="col-lg-10">
+                            <div class="radio-inline">
+                                <label>
+                                    <input name="jk" value="1" type="radio">Laki-Laki</input>
+                                </label>
+                            </div>
+                            <div class="radio-inline">
+                                <label>
+                                    <input name="jk" value="2" type="radio">Perempuan</input>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-lg-2 control-label">Tempat Lahir</label>
+                        <div class="col-lg-2">
+                            <input class="form-control" name="tmp_lahir" type="text">
+                        </div>
+                        <label class="col-lg-2 control-label">Tanggal Lahir</label>
+                        <div class="col-lg-2">
+                            <select class="form-control" name="tgl_lahir">
+                                <?php for($d = 1; $d <= 31; ++$d): ?>
+                                    <option value='<php echo $d; ?>'><?php echo $d; ?></option>
+                                <?php endfor; ?>
+                            </select>
+                        </div>
+                        <div class="col-lg-2">
+                            <select class="form-control" name="bln_lahir">
+                                <?php for($m = 1; $m <= 12; ++$m): ?>
+                                    <option value='<php echo $m; ?>'><?php echo $m; ?></option>
+                                <?php endfor; ?>
+                        </select>
+                    </div>
+                    <div class="col-lg-2">
+                        <select class="form-control" name="thn_lahir">
+                            <?php for($y = date('Y'); $y >= 1990; --$y): ?>
+                                <option value='<php echo $y; ?>'><?php echo $y; ?></option>
+                            <?php endfor; ?>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-lg-2 control-label">Alamat</label>
+                <div class="col-lg-8">
+                    <input class="form-control" name="alamat" required="required" type="text">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-lg-2 control-label">Foto</label>
+                <div class="col-lg-4">
+                    <input class="input-file uniform_on" name="foto_siswa" type="file">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="col-lg-12">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            Data Orang Tua
+        </div>
+        <div class="panel-body">
+            <div class="col-lg-12">
+                <div class="form-group">
+                    <label class="col-lg-2 control-label">Nama Ayah</label>
+                    <div class="col-lg-4">
+                        <input class="form-control" name="nama_ay" 'required="required" '="" type="text">
+                    </div>
+                    <label class="col-lg-2 control-label">Nama Ibu</label>
+                    <div class="col-lg-4">
+                        <input class="form-control" name="nama_ib" required="required" type="text">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-lg-2 control-label">Pendidikan Ayah</label>
+                    <div class="col-lg-3">
+                        <select class="form-control" name="pend_ay">
+                        <?php foreach($pdd as $pd): ?>
+                            <option value='<?php echo $pd['id_penddk']; ?>'><?php echo $pd['penddk']; ?></option>
+                        <?php endforeach; ?>
+                        </select>
+                    </div>
+                    <label class="col-lg-2 control-label">Pendidikan Ibu</label>
+                    <div class="col-lg-3">
+                        <select class="form-control" name="pend_ib">
+                        <?php foreach($pdd as $pd): ?>
+                            <option value='<?php echo $pd['id_penddk']; ?>'><?php echo $pd['penddk']; ?></option>
+                        <?php endforeach; ?>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                 <label class="col-lg-2 control-label">Pekerjaan Ayah</label>
+                 <div class="col-lg-3">
+                    <select class="form-control" name="pkj_ay">
+                        <?php foreach($pkjAy as $pa): ?>
+                           <option value='<?php echo $pa['id_pkj']; ?>'><?php echo $pa['pkj']; ?></option>
+                       <?php endforeach; ?>
+                   </select>
+               </div>
+               <label class="col-lg-2 control-label">Pekerjaan Ibu</label>
+               <div class="col-lg-3">
+                <select class="form-control" name="pkj_ib">
+                    <?php foreach($pkjIb as $pi): ?>
+                       <option value='<?php echo $pi['id_pkj'] ?>'><?php echo $pi['pkj'] ?></option>
+                   <?php endforeach; ?>
+               </select>
+           </div>
+       </div>
+       <div class="form-group">
+         <label class="col-lg-2 control-label">Penghasilan Ayah</label>
+         <div class="col-lg-3">
+            <select class="form-control" name="pnghsln_ay">
+                <?php foreach($pnghsln as $png): ?>
+                   <option value='<?php echo $png['id_pnghsln'] ?>'><?php echo $png['penghasilan'] ?></option>
+               <?php endforeach; ?>
+           </select>
+       </div>
+       <label class="col-lg-2 control-label">Penghasilan Ibu</label>
+       <div class="col-lg-3">
+        <select class="form-control" name="pnghsln_ib">
+            <?php foreach($pnghsln as $png): ?>
+               <option value='<?php echo $png['id_pnghsln'] ?>'><?php echo $png['penghasilan'] ?></option>
+           <?php endforeach; ?>
+       </select>
+   </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-12">
+   <div class="panel panel-default">
+      <div class="panel-heading">
+         Sekolah Asal
+     </div>
+     <div class="panel-body">
+         <div class="col-lg-12">
+          <div class="form-group">
+             <label class="col-lg-2 control-label">Nama Sekolah</label>
+             <div class="col-lg-4">
+                <input class="form-control" name="asal_skl" required="required" type="text">
+            </div>
+        </div>
+        <div class="form-group">
+         <label class="col-lg-2 control-label">Status Sekolah</label>
+         <div class="col-lg-10">
+            <div class="radio-inline">
+               <label>
+                  <input name="stat_skl" value="1" type="radio">Negeri
+              </label>
+          </div>
+          <div class="radio-inline">
+           <label>
+              <input name="stat_skl" value="2" type="radio">Swasta
+          </label>
+      </div>
+  </div>
+</div>
+<div class="form-group">
+ <label class="col-lg-2 control-label">Alamat</label>
+ <div class="col-lg-8">
+    <input class="form-control" name="sc_alamat" required="required" type="text">
+</div>
+</div>
+<div class="form-group">
+ <label class="col-lg-2 control-label">Kepala Sekolah</label>
+ <div class="col-lg-4">
+    <input class="form-control" name="kepsek" required="required" type="text">
+</div>
+</div>
+<div class="form-group">
+ <label class="col-lg-2 control-label">Tahun Lulus</label>
+ <div class="col-lg-2">
+    <input class="form-control" name="thn_lulus" 'required="required" '="" type="text">
+</div>
+<label class="col-lg-2 control-label">No. Ijazah</label>
+<div class="col-lg-3">
+    <input class="form-control" name="no_ijazah" required="required" type="text">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-12">
+   <div class="panel panel-default">
+      <div class="panel-heading">
+         Data Nilai UN
+     </div>
+     <div class="panel-body">
+         <div class="col-lg-12">
+          <div class="form-group">
+             <label class="col-lg-2 control-label">Bahasa Inggris</label>
+             <div class="col-lg-2">
+                <input class="form-control" name="bing" 'required="required" '="" type="text">
+            </div>
+            <label class="col-lg-2 control-label">Bahasa Indonesia</label>
+            <div class="col-lg-2">
+                <input class="form-control" name="bind" required="required" type="text">
+            </div>
+        </div>
+        <div class="form-group">
+         <label class="col-lg-2 control-label">Matematika</label>
+         <div class="col-lg-2">
+            <input class="form-control" name="mtk" required="required" type="text">
+        </div>
+        <label class="col-lg-2 control-label">I P A</label>
+        <div class="col-lg-2">
+            <input class="form-control" name="ipa" required="required" type="text">
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-12">
+   <div class="panel panel-default">
+      <div class="panel-heading">
+         Informasi Pendaftaran
+     </div>
+     <div class="panel-body">
+         <div class="col-lg-12">
+          <div class="form-group">
+             <label class="col-lg-2 control-label">Gelombang</label>
+             <div class="col-lg-2">
+                <select class="form-control" name="gel_pndftrn">
+                   <?php foreach ($gel as $g): ?>
+                      <option value='<?php echo $g['id_gel']; ?>' selected><?php echo $g['gelombang']; ?></option>
+                  <?php endforeach; ?>
+              </select>
+          </div>
+      </div>
+      <div class="form-group">
+         <label class="col-lg-2 control-label">Jalur</label>
+         <div class="col-lg-10">
+            <div class="radio-inline">
+               <label>
+                  <input name="jlr_pndftrn" value="1" type="radio">Reguler
+              </label>
+          </div>
+          <div class="radio-inline">
+           <label>
+              <input name="jlr_pndftrn" value="2" type="radio">Prestasi
+          </label>
+      </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-12">
+   <div class="panel panel-default">
+      <div class="panel-heading">
+         Prestasi Yang Pernah Diraih
+     </div>
+     <div class="panel-body">
+         <div class="col-lg-12">
+          <div class="form-group">
+             <label class="col-lg-2 control-label">Prestasi 1</label>
+             <div class="col-lg-4">
+                <input class="form-control" name="namapres1" type="text">
+            </div>
+            <label class="col-lg-2 control-label">Tingkat</label>
+            <div class="col-lg-4">
+                <select class="form-control" name="tgkt1">
+                   <option value="" selected="selected"></option>
+                   <?php foreach ($pres as $pr): ?>
+                       <option value='<?php echo $pr['id_prestasi'] ?>'><?php echo $pr['prestasi']; ?></option>
+                   <?php endforeach; ?>
+               </select>
+           </div>
+       </div>
+       <div class="form-group">
+         <label class="col-lg-2 control-label">Prestasi 2</label>
+         <div class="col-lg-4">
+            <input class="form-control" name="namapres2" type="text">
+        </div>
+        <label class="col-lg-2 control-label">Tingkat</label>
+        <div class="col-lg-4">
+            <select class="form-control" name="tgkt2">
+               <option value="" selected="selected"></option>
+               <?php foreach ($pres as $pr): ?>
+                   <option value='<?php echo $pr['id_prestasi'] ?>'><?php echo $pr['prestasi']; ?></option>
+               <?php endforeach; ?>
+           </select>
+       </div>
+   </div>
+   <div class="form-group">
+     <label class="col-lg-2 control-label">Prestasi 3</label>
+     <div class="col-lg-4">
+        <input class="form-control" name="namapres3" type="text">
+    </div>
+    <label class="col-lg-2 control-label">Tingkat</label>
+    <div class="col-lg-4">
+        <select class="form-control" name="tgkt3">
+           <option value="" selected="selected"></option>
+           <?php foreach ($pres as $pr): ?>
+               <option value='<?php echo $pr['id_prestasi'] ?>'><?php echo $pr['prestasi']; ?></option>
+           <?php endforeach; ?>
+       </select>
+   </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-12">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            Konfirmasi Data Pendaftar
+        </div>
+    <div class="panel-body">
+        <div class="col-lg-12">
+            <div class="form-group">
+                <div class="checkbox">
+                    <label for="data_ok">
+                        <input type="checkbox" name="data_ok" value="woke">Dengan ini saya menyatakan bahwa, Data yang saya isikan di Formulir ini adalah Benar adanya sesuai dengan bukti-bukti yang ada
+                    </label>
+                </div>
+            </div>
+        <center><input type="submit" class="btn btn-primary btn-lg" name="daftar" value="<?php echo $submit; ?>" id="tombol"></center>
+    </div>
+</div>
+</div>
+</div>
+<?php echo $this->formHelper->formClose(); ?>
+</div>

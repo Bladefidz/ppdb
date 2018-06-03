@@ -1,0 +1,144 @@
+Time : 16:55:44
+Error Code: 2002
+Error Message SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+
+Error File: D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 133
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\database\drivers\pdo\PdoDb.php(133): PDO->__construct('mysql:dbname=pp...', 'root', '', Array)
+#1 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\database\drivers\pdo\PdoDb.php(118): Database\Driver\PdoDb->connect()
+#2 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\database\drivers\pdo\PdoUtil.php(35): Database\Driver\PdoDb->__construct('mysql:dbname=pp...', 'root', '')
+#3 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\database\DB.php(81): Database\Driver\PdoUtil->__construct('mysql:dbname=pp...', 'root', '')
+#4 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\database\DB.php(48): Database\DB->initialize()
+#5 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\core\Model.php(35): Database\DB->__construct(Array)
+#6 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\core\Controller.php(80): Core\Model->__construct()
+#7 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\application\controllers\Pendaftaran.php(27): Core\Controller->__construct()
+#8 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\core\Router.php(97): Controllers\Pendaftaran->__construct(NULL)
+#9 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\core\Router.php(229): Core\Router::invokeObject('Controllers\\Pen...', Array)
+#10 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\index.php(80): Core\Router::dispatch()
+#11 {main}
+
+Time : 14:05:23
+Error Code: 23000
+Error Message SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`ppdb`.`ppdb_pendaftaran_data`, CONSTRAINT `data_jalur` FOREIGN KEY (`id_jalur`) REFERENCES `ppdb_jalur` (`id_jalur`) ON DELETE CASCADE ON UPDATE CASCADE)
+Error File: D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 195
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\database\drivers\pdo\PdoDb.php(195): PDOStatement->execute()
+#1 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('UPDATE ppdb_pen...', Array)
+#2 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\application\models\PendaftaranModel.php(217): Database\Driver\PdoDb->query('UPDATE ppdb_pen...', Array)
+#3 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\application\controllers\Pendaftaran.php(370): Models\PendaftaranModel->pendaftaran(Array)
+#4 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\core\Router.php(101): Controllers\Pendaftaran->daftar()
+#5 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\core\Router.php(229): Core\Router::invokeObject('Controllers\\Pen...', Array)
+#6 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\index.php(80): Core\Router::dispatch()
+#7 {main}
+
+Time : 14:03:58
+Error Code: 23000
+Error Message SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`ppdb`.`ppdb_pendaftaran_data`, CONSTRAINT `data_jalur` FOREIGN KEY (`id_jalur`) REFERENCES `ppdb_jalur` (`id_jalur`) ON DELETE CASCADE ON UPDATE CASCADE)
+Error File: D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 195
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\database\drivers\pdo\PdoDb.php(195): PDOStatement->execute()
+#1 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('UPDATE ppdb_pen...', Array)
+#2 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\application\models\PendaftaranModel.php(217): Database\Driver\PdoDb->query('UPDATE ppdb_pen...', Array)
+#3 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\application\controllers\Pendaftaran.php(370): Models\PendaftaranModel->pendaftaran(Array)
+#4 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\core\Router.php(101): Controllers\Pendaftaran->daftar()
+#5 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\core\Router.php(229): Core\Router::invokeObject('Controllers\\Pen...', Array)
+#6 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\index.php(80): Core\Router::dispatch()
+#7 {main}
+
+Time : 14:03:34
+Error Code: 23000
+Error Message SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`ppdb`.`ppdb_pendaftaran_data`, CONSTRAINT `data_jalur` FOREIGN KEY (`id_jalur`) REFERENCES `ppdb_jalur` (`id_jalur`) ON DELETE CASCADE ON UPDATE CASCADE)
+Error File: D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 195
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\database\drivers\pdo\PdoDb.php(195): PDOStatement->execute()
+#1 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('UPDATE ppdb_pen...', Array)
+#2 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\application\models\PendaftaranModel.php(217): Database\Driver\PdoDb->query('UPDATE ppdb_pen...', Array)
+#3 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\application\controllers\Pendaftaran.php(370): Models\PendaftaranModel->pendaftaran(Array)
+#4 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\core\Router.php(101): Controllers\Pendaftaran->daftar()
+#5 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\core\Router.php(229): Core\Router::invokeObject('Controllers\\Pen...', Array)
+#6 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\index.php(80): Core\Router::dispatch()
+#7 {main}
+
+Time : 13:59:29
+Error Code: 23000
+Error Message SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`ppdb`.`ppdb_pendaftaran_data`, CONSTRAINT `data_jalur` FOREIGN KEY (`id_jalur`) REFERENCES `ppdb_jalur` (`id_jalur`) ON DELETE CASCADE ON UPDATE CASCADE)
+Error File: D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 195
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\database\drivers\pdo\PdoDb.php(195): PDOStatement->execute()
+#1 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('UPDATE ppdb_pen...', Array)
+#2 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\application\models\PendaftaranModel.php(217): Database\Driver\PdoDb->query('UPDATE ppdb_pen...', Array)
+#3 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\application\controllers\Pendaftaran.php(370): Models\PendaftaranModel->pendaftaran(Array)
+#4 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\core\Router.php(101): Controllers\Pendaftaran->daftar()
+#5 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\core\Router.php(229): Core\Router::invokeObject('Controllers\\Pen...', Array)
+#6 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\index.php(80): Core\Router::dispatch()
+#7 {main}
+
+Time : 13:57:55
+Error Code: 23000
+Error Message SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`ppdb`.`ppdb_pendaftaran_data`, CONSTRAINT `data_jalur` FOREIGN KEY (`id_jalur`) REFERENCES `ppdb_jalur` (`id_jalur`) ON DELETE CASCADE ON UPDATE CASCADE)
+Error File: D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 195
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\database\drivers\pdo\PdoDb.php(195): PDOStatement->execute()
+#1 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('UPDATE ppdb_pen...', Array)
+#2 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\application\models\PendaftaranModel.php(217): Database\Driver\PdoDb->query('UPDATE ppdb_pen...', Array)
+#3 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\application\controllers\Pendaftaran.php(370): Models\PendaftaranModel->pendaftaran(Array)
+#4 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\core\Router.php(101): Controllers\Pendaftaran->daftar()
+#5 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\core\Router.php(229): Core\Router::invokeObject('Controllers\\Pen...', Array)
+#6 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\index.php(80): Core\Router::dispatch()
+#7 {main}
+
+Time : 13:53:05
+Error Code: 23000
+Error Message SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`ppdb`.`ppdb_pendaftaran_data`, CONSTRAINT `data_jalur` FOREIGN KEY (`id_jalur`) REFERENCES `ppdb_jalur` (`id_jalur`) ON DELETE CASCADE ON UPDATE CASCADE)
+Error File: D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 195
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\database\drivers\pdo\PdoDb.php(195): PDOStatement->execute()
+#1 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('UPDATE ppdb_pen...', Array)
+#2 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\application\models\PendaftaranModel.php(217): Database\Driver\PdoDb->query('UPDATE ppdb_pen...', Array)
+#3 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\application\controllers\Pendaftaran.php(370): Models\PendaftaranModel->pendaftaran(Array)
+#4 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\core\Router.php(101): Controllers\Pendaftaran->daftar()
+#5 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\core\Router.php(229): Core\Router::invokeObject('Controllers\\Pen...', Array)
+#6 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\index.php(80): Core\Router::dispatch()
+#7 {main}
+
+Time : 13:08:45
+Error Code: 23000
+Error Message SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`ppdb`.`ppdb_pendaftaran_data`, CONSTRAINT `data_jalur` FOREIGN KEY (`id_jalur`) REFERENCES `ppdb_jalur` (`id_jalur`) ON DELETE CASCADE ON UPDATE CASCADE)
+Error File: D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 195
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\database\drivers\pdo\PdoDb.php(195): PDOStatement->execute()
+#1 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('UPDATE ppdb_pen...', Array)
+#2 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\application\models\PendaftaranModel.php(217): Database\Driver\PdoDb->query('UPDATE ppdb_pen...', Array)
+#3 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\application\controllers\Pendaftaran.php(364): Models\PendaftaranModel->pendaftaran(Array)
+#4 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\core\Router.php(101): Controllers\Pendaftaran->daftar()
+#5 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\core\Router.php(229): Core\Router::invokeObject('Controllers\\Pen...', Array)
+#6 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\index.php(80): Core\Router::dispatch()
+#7 {main}
+
+Time : 13:08:08
+Error Code: 23000
+Error Message SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`ppdb`.`ppdb_pendaftaran_data`, CONSTRAINT `data_jalur` FOREIGN KEY (`id_jalur`) REFERENCES `ppdb_jalur` (`id_jalur`) ON DELETE CASCADE ON UPDATE CASCADE)
+Error File: D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 195
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\database\drivers\pdo\PdoDb.php(195): PDOStatement->execute()
+#1 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('UPDATE ppdb_pen...', Array)
+#2 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\application\models\PendaftaranModel.php(217): Database\Driver\PdoDb->query('UPDATE ppdb_pen...', Array)
+#3 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\application\controllers\Pendaftaran.php(364): Models\PendaftaranModel->pendaftaran(Array)
+#4 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\core\Router.php(101): Controllers\Pendaftaran->daftar()
+#5 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\core\Router.php(229): Core\Router::invokeObject('Controllers\\Pen...', Array)
+#6 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\index.php(80): Core\Router::dispatch()
+#7 {main}
+
+Time : 13:05:30
+Error Code: 23000
+Error Message SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`ppdb`.`ppdb_pendaftaran_data`, CONSTRAINT `data_jalur` FOREIGN KEY (`id_jalur`) REFERENCES `ppdb_jalur` (`id_jalur`) ON DELETE CASCADE ON UPDATE CASCADE)
+Error File: D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\database\drivers\pdo\PdoDb.php
+Error File Line: 195
+Error Trace: #0 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\database\drivers\pdo\PdoDb.php(195): PDOStatement->execute()
+#1 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\database\drivers\pdo\PdoDb.php(228): Database\Driver\PdoDb->init('UPDATE ppdb_pen...', Array)
+#2 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\application\models\PendaftaranModel.php(217): Database\Driver\PdoDb->query('UPDATE ppdb_pen...', Array)
+#3 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\application\controllers\Pendaftaran.php(364): Models\PendaftaranModel->pendaftaran(Array)
+#4 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\core\Router.php(101): Controllers\Pendaftaran->daftar()
+#5 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\simplex\core\Router.php(229): Core\Router::invokeObject('Controllers\\Pen...', Array)
+#6 D:\xampp\htdocs\panitiappdb.manduaponorogo.sch.id\index.php(80): Core\Router::dispatch()
+#7 {main}

@@ -1,0 +1,71 @@
+html, body {
+margin: 0;
+font-family: Verdana, Helvetica, Arial, sans-serif;
+font-size: 12px;
+}
+
+.kop {
+width: 100%;
+margin: 0 auto auto;
+border-radius:5px;
+line-height: 45%;
+border-collapse: collapse;
+font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+
+.judul1 {
+font-size: 14pt;
+}
+
+.kop #logokiri {
+display: block;
+float: left;
+position: relative;
+margin: 0 0 0 0px;
+}
+
+.kop #logokanan {
+display: block;
+float: right;
+position: relative;
+margin: 0 0 0 0px;
+}
+
+hr {
+width: 90%;
+border: solid 3px;
+}
+
+.data {
+width: 100%;
+margin: 0 auto auto;
+border-collapse: collapse;
+font-family: Verdana, Helvetica, Arial, sans-serif;
+font-size: 12pt;
+}
+
+.data th {
+height: 34px;
+text-align: left;
+cursor: pointer;
+border-collapse: collapse;
+}
+
+.data td{
+margin: 0;
+padding: 1.5px;
+border-collapse: collapse;
+}
+
+.data td {
+margin: 0 0 0 0;
+border-collapse: collapse;
+}
+
+#foto {
+margin: 0 0 0 25;
+}
+
+#tengah {
+text-align: center;
+}

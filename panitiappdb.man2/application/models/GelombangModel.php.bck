@@ -1,0 +1,93 @@
+<?php
+namespace Models;
+
+/**
+ * GelombangModel class
+ */
+class GelombangModel extends \Core\Model
+{
+    public $isOpen = false;
+
+    public function __construct()
+    {
+        parent::__construct();
+
+        $this->db->table = 'ppdb_gelombang';
+        $this->db->pk = 'id_gel';
+
+        $this->getRegStatus();
+    }
+
+    private function generateDays()
+    {
+        $d = cal_days_in_month(CAL_GREGORIAN,10,2005);
+        $dayRange = array();
+        for($d = 1; $d <= 31; ++$d) {
+            $dayRange["day ".$d] = $d;
+        }
+        return $dayRange;
+    }
+
+    public function pilGelombang()
+    {
+        return $this->db->all();
+    }
+
+    private function numGelombangCol()
+    {
+        return count($this->pilGelombang());
+    }
+
+    private function generateRegDetail()
+    {
+        $regDatesRange = array();
+        $gelDetail = $this->pilGelombang();
+        for($r = 0; $r < $this->numGelombangCol(); ++$r) {
+            $gelRange = $gelDetail[$r]['gelombang'];
+            $open_date = $gelDetail[$r]['open_date'];
+            $close_date = $gelDetail[$r]['close_date'];
+            $gelDateRange = array(
+                "Gelombang "."$gelRange" => array(
+                    "open" => $open_date,
+                    "close" => $close_date,
+                )
+            );
+            $regDatesRange = array_merge($regDatesRange, $gelDateRange);
+        }
+        return $regDatesRange;
+    }
+
+    public function getRegStatus() {
+        $today = new \DateTime("now");
+        $fullRegStats = array();
+        $regDetails = $this->generateRegDetail();
+        for ($rd = 1; $rd <= count($regDetails); ++$rd) {
+            // Create new date array object
+            $regOpenDate = new \DateTime($regDetails["Gelombang ".$rd]["open"]);
+            $regCloseDate = new \DateTime($regDetails["Gelombang ".$rd]["close"]);
+            $studyYearStart = date_format($regCloseDate, "Y");
+            $studyYearEnd = $studyYearStart+1;
+
+            // Compare by year, month and day
+            if ($today >= $regOpenDate && $today <= $regCloseDate) {
+                $countdown = $today->diff($regCloseDate);
+                $fullRegStats = array(
+                    'gelombang' => $rd,
+                    'study year' => $studyYearStart."/".$studyYearEnd,
+                    'countdown' => $countdown->format("%a"),
+                    'due' => date_format($regCloseDate, "d-m-Y")
+                );
+
+                $this->isOpen = true;
+
+                return $fullRegStats;
+            }
+        }
+    }
+
+    public function test()
+    {
+        $today = new \DateTime("now");
+        return $this->getOpenReg();
+    }
+}
