@@ -61,6 +61,7 @@ class GelombangModel extends \Core\Model
         $gelDetail = $this->getGelsYear($yearNow);
         $numGels = count($gelDetail);
 
+        $regStats = array();
         for ($gel = 0; $gel < $numGels; $gel++) {
             $studyYearStart = $gelDetail[$gel]["tahun_ajaran"];
             $studyYearEnd = $studyYearStart+1;
